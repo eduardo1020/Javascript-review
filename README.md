@@ -1,5 +1,7 @@
 # Javascript review
 
+<img src="https://github.com/eduardo1020/Javascript-review/blob/main/assets/3071338.jpg" width=250 height=250>
+
 Este repositório contém atividades desenvolvidas durante o estudo da linguagem de programação Javascript tendo como foco revisar os tópicos estudados.
 
 # Tópicos estudados
