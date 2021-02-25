@@ -1,6 +1,6 @@
 # Javascript review
 
-Este repositório contém atividades desenvolvidas durante o estudo da linguagem de programação Javascript.
+Este repositório contém atividades desenvolvidas durante o estudo da linguagem de programação Javascript tendo como foco revisar os tópicos estudados.
 
 # Tópicos estudados
 - variávies
