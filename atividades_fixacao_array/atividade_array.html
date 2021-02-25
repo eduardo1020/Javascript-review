@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <h1>Atividade sobre Array</h1>
+
+    <input id="campo_texto" type="text">
+    <button onclick="verificaValor()" type="submit">Adicionar</button>
+    <button onclick="ordenaArray()" type="submit">Ordenar</button>
+
+    <script>
+
+        var objetos = Array('Cadeira', 'Impressora', 'Garfo')
+
+        function verificaValor() {
+
+            var obj = document.getElementById('campo_texto').value
+            console.log(obj)
+
+            console.log(objetos.indexOf(obj))
+
+            if (obj == '') {
+                alert('Informe um valor válido.')
+                document.getElementById('campo_texto').value = ''
+            } else if (objetos.indexOf(obj) === 0) {
+                alert('Objeto já foi adicionado.')
+                document.getElementById('campo_texto').value = ''
+            } else {
+                objetos.push(obj)
+                console.log(objetos)
+                document.getElementById('campo_texto').value = ''
+            }
+        }
+
+        function ordenaArray() {
+
+            var objetosOrdenado = objetos.sort()
+
+            console.log(objetosOrdenado)
+        }
+
+    </script>
+
+</body>
+
+</html>

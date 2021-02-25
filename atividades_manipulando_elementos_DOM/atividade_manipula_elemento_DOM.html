@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <h1>Atividade de manipulação de elementos no DOM</h1>
+
+    <input onfocus="mudaBackground('yellow')" onblur="mudaBackgroundCaracter()" id="campo_texto" type="text">
+
+    <script>
+
+        function mudaBackground(cor) {
+            document.getElementById('campo_texto').style.background = cor
+        }
+
+        function mudaBackgroundCaracter() {
+
+            var quantCarater = document.getElementById('campo_texto').value
+
+            console.log(quantCarater.length)
+
+            if(quantCarater.length < 3) {
+                mudaBackground('red')
+            }else {
+                mudaBackground('green')
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
